@@ -45,6 +45,7 @@ body{
     z-index: 3;
     min-height: 100px;
     max-height: 100px;
+    box-shadow: 2px 2px 4px #dedede;
   }
 }
 .headers_body{
@@ -153,6 +154,8 @@ body{
       background-color: #ffffff;
       padding: 70px 10px 20px 10px;
       transition: all 0.5s ease 0s;
+      box-shadow: 2px 12px 17px #dedede;
+
     }
       .menu_opened {
         top: 0;
