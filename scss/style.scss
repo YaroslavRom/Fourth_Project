@@ -26,7 +26,6 @@ body{
 .container{
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 .header{
   position: fixed;
@@ -34,7 +33,7 @@ body{
   top:0;
   left: 0;
   z-index: 50;
-  box-shadow: 2px 2px 4px #dedede;
+  box-shadow: 2px 12px 17px #dedede;
   &:before{
     content: '';
     position: absolute;
@@ -65,7 +64,8 @@ body{
     display: block;
     min-height: 60px;
     min-width: 60px;
-  }
+    margin-left: 20%;
+    }
 }
 .header_list{
   display: flex;
@@ -175,6 +175,9 @@ body{
         padding: 0;
       }
     }
+    .logo_img_class{
+      margin-left: 21%;
+    }
   }
 @media (max-width: 974px) {
   .header_link {
@@ -202,3 +205,19 @@ body{
     }
   }
 
+  .shadowed-form{
+    background-color: #f7f7f7;
+    min-height: 671px;
+    min-width: 100%;
+    display: flex;
+  }
+  .cources_text{
+    background-color: chartreuse;
+    min-width: 50%;
+    min-height: 100%;
+  }
+  .register_form{
+    min-width: 50%;
+    min-height: 100%;
+    background-color: aqua;
+  }
