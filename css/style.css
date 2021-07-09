@@ -83,7 +83,7 @@ html, body {
   top: 0;
   left: 0;
   z-index: 50;
-  box-shadow: 2px 12px 17px #dedede;
+  box-shadow: 0 3px 9.6px #dedede;
 }
 .header:before {
   content: "";
@@ -216,7 +216,7 @@ html, body {
     background-color: #ffffff;
     padding: 70px 10px 20px 10px;
     transition: all 0.5s ease 0s;
-    box-shadow: 2px 12px 17px #dedede;
+    box-shadow: 0 3px 9.6px #dedede;
   }
 
   .menu_opened {
@@ -243,6 +243,12 @@ html, body {
     margin-left: 21%;
   }
 }
+@media (max-width: 768px) {
+  .shadowed-form {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 974px) {
   .header_link {
     font-size: 15px;
@@ -256,6 +262,12 @@ html, body {
 @media (max-width: 900px) {
   .header_link {
     font-size: 13px;
+  }
+}
+@media (max-width: 1280px) {
+  .shadowed-form {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 .content {
@@ -305,6 +317,8 @@ html, body {
   max-width: 527px;
   float: right;
   margin: 257px 23px auto 0;
+  min-width: 284px;
+  flex-wrap: wrap;
 }
 
 .register_form {
