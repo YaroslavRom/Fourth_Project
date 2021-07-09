@@ -75,6 +75,7 @@ html, body {
 }
 .container {
   margin: 0 auto;
+  max-width: 1220px;
 }
 
 .header {
@@ -243,10 +244,11 @@ html, body {
     margin-left: 21%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .shadowed-form {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 974px) {
@@ -264,12 +266,6 @@ html, body {
     font-size: 13px;
   }
 }
-@media (max-width: 1280px) {
-  .shadowed-form {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 .content {
   padding: 100px 0 0 0;
 }
@@ -285,7 +281,7 @@ html, body {
 .shadowed-form {
   background-color: #f7f7f7;
   min-height: 671px;
-  min-width: 100%;
+  min-width: auto;
   display: flex;
 }
 
@@ -314,11 +310,11 @@ html, body {
 .text-inside-cources {
   display: flex;
   height: auto;
-  max-width: 527px;
   float: right;
   margin: 257px 23px auto 0;
   min-width: 284px;
   flex-wrap: wrap;
+  max-width: 687px;
 }
 
 .register_form {
@@ -329,6 +325,7 @@ html, body {
   font-weight: 400;
   font-size: 13px;
   margin: 0 0 0 34px;
+  max-width: 576px;
 }
 .register_form p {
   margin: 58px 0 22px 0;
@@ -350,17 +347,8 @@ html, body {
   color: #337ab7;
 }
 .register_form form input {
-  min-width: 590px;
-  min-height: 50px;
   margin: 13px 0 10px 0;
   padding: 0 0 0 10px;
-}
-.register_form form .check-mark-4-form {
-  min-width: 13px;
-  min-height: 13px;
-  margin: 10px 0 0 0;
-}
-.register_form form input {
   border-radius: 4px;
   border: 1px solid #bababa;
   outline: none;
@@ -372,8 +360,12 @@ html, body {
 .register_form form input:focus::placeholder {
   opacity: 0;
 }
+.register_form form .check-mark-4-form {
+  min-width: 13px;
+  min-height: 13px;
+  margin: 10px 0 0 0;
+}
 .register_form .register_link {
-  padding: 21px 95px;
   border-radius: 43px;
   margin: 28px auto auto;
   max-width: 178px;
@@ -385,5 +377,45 @@ html, body {
 .register_form .register_link a {
   text-decoration: none;
   color: #ffffff;
+}
+
+input {
+  min-width: 590px;
+  min-height: 50px;
+}
+
+.register_link {
+  padding: 21px 95px;
+}
+
+@media (max-width: 1285px) {
+  .form-optimization {
+    min-width: 430px;
+    min-height: 46px;
+  }
+
+  .register_link {
+    padding: 16px 55px;
+  }
+}
+@media (max-width: 1033px) {
+  .form-optimization {
+    min-width: 347px;
+    min-height: 34px;
+  }
+
+  .register_link {
+    padding: 10px 24px;
+  }
+
+  .register_form {
+    margin: 0 0 0 4px;
+  }
+
+  .text-inside-cources {
+    margin: 147px 9px auto 0;
+    min-width: 250px;
+    line-height: 36px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
