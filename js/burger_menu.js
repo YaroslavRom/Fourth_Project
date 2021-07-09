@@ -5,3 +5,12 @@ $(document).ready(function (){
         // $('body').toggleClass('lock');
     })
 })
+
+
+// $(document).ready(function (){
+//     $('.input-click').click(function (event){
+//         $('.input-click').toggleClass('selected-input');
+//     })
+//
+// })
+//
