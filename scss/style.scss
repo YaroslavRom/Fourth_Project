@@ -4,7 +4,6 @@ html,body{
 }
 
 body{
-  background-color: #f7f7f7;
 }
 
 @font-face {
@@ -229,20 +228,24 @@ body{
     p{
       font-family: OpenSans ;
       font-weight: 700;
-      font-size: 25px;
+      font-size: 33px;
       margin:0 0 45px 0;
     }
     li{
-      font-size: 18px;
+      font-family: OpenSans ;
+      font-weight: 300;
+      font-size: 17px;
       line-height: 26px;
+      max-width: 474px;
+      margin: 0 0 0 27px;
     }
   }
     .text-inside-cources{
     display: flex;
     height: auto;
-    max-width: 502px;
+    max-width: 527px;
     float: right;
-    margin: 285px 23px auto 0;
+    margin: 257px 23px auto 0;
     }
   .register_form{
     min-height: 100%;
@@ -301,7 +304,7 @@ body{
     .register_link{
       padding: 21px 95px;
       border-radius: 43px;
-      margin: 40px auto auto;
+      margin: 28px auto auto;
       max-width: 178px;
       text-align: center;
       background-color: #337ab7;
