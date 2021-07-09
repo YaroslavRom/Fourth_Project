@@ -308,18 +308,37 @@ body {
 }
 
 .register_form {
-  min-width: 50%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: OpenSans;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 13px;
+  margin: 0 0 0 34px;
 }
 .register_form p {
-  margin: 58px 0 0 0;
+  margin: 58px 0 43px 0;
   font-size: 16px;
   font-weight: 400;
+}
+.register_form form input {
+  min-width: 590px;
+  min-height: 50px;
+  margin: 13px 0 10px 0;
+}
+.register_form form .check-mark-4-form {
+  min-width: 13px;
+  min-height: 13px;
+  margin: 10px 0 0 0;
+}
+.register_form .register_link {
+  padding: 21px 95px;
+  border-radius: 43px;
+  max-width: 178px;
+  text-align: center;
+  background-color: #337ab7;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
