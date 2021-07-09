@@ -258,7 +258,19 @@ body{
       font-weight: 400;
      }
     form{
-      input{
+       label{
+        &:after{
+          content: "";
+          width: 7px;
+          height: 7px;
+          background-size: 7px;
+          background-image: url("../img/required.png");
+          background-repeat: no-repeat;
+          display: inline flow-root;
+          margin: 0 0 0 3px;
+        }
+      }
+        input{
         min-width: 590px;
         min-height: 50px;
         margin: 13px 0 10px 0;
@@ -268,7 +280,6 @@ body{
         min-height: 13px;
         margin: 10px 0 0 0;
       }
-
     }
     .register_link{
       padding: 21px 95px;
