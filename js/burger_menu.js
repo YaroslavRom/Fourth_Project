@@ -6,21 +6,3 @@ $(document).ready(function (){
     })
 })
 
-
-$(document).ready(function (){
-    $('.slider-number-one').slick({
-        infinite: false,
-        easing:'ease',
-        responsive: [
-            {
-                breakpoint: 1220,
-                settings:{
-                    slidesToShow: 2,
-                    slidesToScroll:1,
-                    dots: true
-                }
-            }
-        ]
-
-    });
-});
