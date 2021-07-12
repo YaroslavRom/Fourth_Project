@@ -492,33 +492,40 @@ input {
     margin: 1px 7px 0 0;
   }
 }
+.first-slider-field {
+  display: flex;
+  justify-content: center;
+}
+
 .first-slider-wraper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 0;
+  max-width: 1220px;
 }
 .first-slider-wraper p {
   font-family: "OpenSans";
-  font-weight: 600;
-  font-size: 23px;
+  font-weight: 400;
+  font-size: 32px;
   margin: 75px 0 50px 0;
 }
 
 .slider-number-one {
   display: flex;
   flex-direction: row;
+  min-width: 0;
 }
 
 .slider1-slidez {
   font-family: "OpenSans";
   font-weight: 400;
-  max-width: 325px;
   max-height: 290px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 70px 120px 10px;
+  margin: 0 60px 120px 10px;
 }
 .slider1-slidez p {
   font-size: 22px;
@@ -528,10 +535,9 @@ input {
   margin: 0 0 30px 0;
 }
 .slider1-slidez ul {
+  max-width: 325px;
   font-size: 16px;
   line-height: 16px;
-  max-width: 350px;
-  flex-wrap: wrap;
 }
 
 .slider1-images {
@@ -542,14 +548,12 @@ input {
   margin: 0 0 36px 0;
 }
 
-.slider {
+.slider-number-one {
   overflow: hidden;
   display: flex;
   justify-content: center;
-}
-
-.slider img {
-  display: block;
+  min-width: 0;
+  max-width: 100%;
 }
 
 /* Слайдер */
@@ -558,32 +562,21 @@ input {
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
-  display: block;
+  margin: 0 0 0 41px;
 }
 
 /* Лента слайдов */
 .slick-track {
   display: flex;
-  min-width: 240px;
-  transform: none;
-  background-color: transparent;
+  overflow: hidden;
 }
 
 /* Слайд */
-.slick-slider {
-  display: block;
-  table-layout: fixed;
-  width: 100%;
-}
-
 /* Слайд активный (показывается) */
 /* Слайд основной */
 /* Слайд по центру */
 /* Клонированный слайд */
 /* Стрелка */
-/* Стрелка влево */
-/* Стрелка вправо */
-/* Стрелка не активная */
 /* Точки (булиты) */
 /* Активная точка */
 /* Элемент точки */

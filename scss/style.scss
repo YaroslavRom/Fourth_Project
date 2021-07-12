@@ -1,11 +1,9 @@
 @import "style-reset";
-html,body{
+  html,body{
   height: 100%;
-}
-
-body{
-}
-
+  }
+  body{
+  }
 @font-face {
   font-family: 'OpenSans';
   font-weight: 700;
@@ -30,13 +28,14 @@ body{
   src: url('../fonts/OpenSans-Light.ttf') format("opentype"); /* IE9 Compat Modes */
   src: url('../fonts/OpenSans-Light.ttf') format("truetype");
 }
-.wrapper{
-}
-.container{
+  .wrapper{
+
+  }
+  .container{
   margin: 0 auto;
   max-width: 1220px;
 }
-.header{
+  .header{
   position: fixed;
   width: 100%;
   top:0;
@@ -56,7 +55,7 @@ body{
     max-height: 100px;
   }
 }
-.headers_body{
+  .headers_body{
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -64,7 +63,7 @@ body{
   align-items: center;
   min-height: 100px;
 }
-.header_logo{
+  .header_logo{
   flex: 0 0 60px ;
   position: relative;
   z-index: 4;
@@ -76,7 +75,7 @@ body{
     margin-left: 20%;
     }
 }
-.header_list{
+  .header_list{
   display: flex;
   position: relative;
   z-index: 3;
@@ -91,7 +90,7 @@ body{
     font-size: 16px;
   }
 }
-.header_link {
+  .header_link {
   color: #6f6f6f;
   font-size: 16px;
   text-decoration: none;
@@ -102,7 +101,7 @@ body{
     background-color: rgb(238, 238, 238, 0.3) ;
   }
 }
- .blueclass{
+  .blueclass{
   font-size: 16px;
   color: #ffffff;
   background-color: #337ab7;
@@ -171,7 +170,7 @@ body{
       margin: 0 0 0 27px;
     }
   }
-    .text-inside-cources{
+  .text-inside-cources{
     display: flex;
     height: auto;
     float: right;
@@ -180,7 +179,6 @@ body{
       flex-wrap: wrap;
       max-width: 687px;
     }
-
   .register_form{
     min-height: 100%;
     display: flex;
@@ -246,11 +244,11 @@ body{
       }
       }
   }
-input {
+   input {
   min-width: 590px;
   min-height: 50px;
 }
-.register_link {
+  .register_link {
   padding: 21px 95px;
 }
 @media (max-width: 1285px) {
@@ -425,25 +423,31 @@ input {
   }
   }
 }
-.first-slider-wraper{
+  .first-slider-field{
+    display: flex;
+    justify-content: center;
+  }
+  .first-slider-wraper{
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 0;
+  max-width: 1220px;
   p{
     font-family: "OpenSans";
-    font-weight: 600;
-    font-size: 23px;
+    font-weight: 400;
+    font-size: 32px;
     margin: 75px 0 50px 0;
   }
 }
-.slider-number-one{
+  .slider-number-one{
   display: flex;
   flex-direction: row;
+  min-width: 0;
 }
-.slider1-slidez{
+  .slider1-slidez{
   font-family: "OpenSans";
   font-weight: 400;
-  max-width: 325px;
   max-height: 290px;
   text-align: center;
   display: flex;
@@ -457,32 +461,33 @@ input {
     margin: 0 0 30px 0;
       }
   ul{
+    max-width: 325px;
     font-size: 16px;
     line-height: 16px;
-    max-width: 350px;
-    flex-wrap: wrap;
+    //max-width: 350px;
   }
-  margin: 0 70px 120px 10px;
-}
-.slider1-images{
+  margin: 0 60px 120px 10px;
+  }
+  .slider1-images{
   max-height: 62px;
   max-width: 72px;
   display: flex;
   justify-content: center;
   margin: 0 0 36px 0;
 }
-.slider{
+
+  .slider-number-one{
   overflow: hidden;
   display: flex;
   justify-content: center;
+  min-width: 0;
+  max-width: 100%;
+  }
+
+/* Слайдер */
+.slick-slider{
 
 }
-.slider .slick-arrow{}
-.slider img {
-  display: block;
-}
-/* Слайдер */
-.slick-slider{}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -490,40 +495,40 @@ input {
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
-  display: block;
-}
-/* Лента слайдов */
-.slick-track{
-  display: flex;
-  min-width: 240px;
-  transform: none;
-  background-color: transparent;
-}
-/* Слайд */
-.slick-slide{}
-.slick-slider { display: block; table-layout: fixed; width: 100%; }
-/* Слайд активный (показывается) */
-.slick-slide.slick-active{}
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
-/* Клонированный слайд */
-.slick-slide.slick-cloned{}
-/* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-/* Точки (булиты) */
-.slick-dots{
+  margin: 0 0 0 41px;
 
-}
-.slick-dots li{}
+  }
+/* Лента слайдов */
+  .slick-track{
+  display: flex;
+  overflow: hidden;
+  }
+/* Слайд */
+  .slick-slide{
+  }
+/* Слайд активный (показывается) */
+  .slick-slide.slick-active{
+
+  }
+/* Слайд основной */
+  .slick-slide.slick-current{
+
+  }
+/* Слайд по центру */
+  .slick-slide.slick-center{
+
+
+  }
+/* Клонированный слайд */
+  .slick-slide.slick-cloned{}
+/* Стрелка */
+  .slick-arrow{
+
+  }
+/* Точки (булиты) */
+  .slick-dots{}
+  .slick-dots li{}
 /* Активная точка */
-.slick-dots li.slick-active{}
+  .slick-dots li.slick-active{}
 /* Элемент точки */
-.slick-dots li button{}
+  .slick-dots li button{}

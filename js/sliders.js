@@ -1,60 +1,49 @@
 $(document).ready(function () {
     $('.slider-number-one').slick({
+        arrows: false,
+        dots: false,
         infinite: false,
-        autoplay: false,
-        arrows:false,
-        dots: true,
-        speed: 1000,
-        easing:'ease',
-        waitForAnimate: false,
-        slidesToShow: 1,
-        slidesToScroll:1,
+        autoplay:true,
+        autoplaySpeed: 300,
+        // easing:'ease',
+        // speed:300,
+        slidesToShow: 3,
+        // slidesToScroll:2,
+        // slidesToScroll:2,
 
-    });
+    })
+
 });
-
-
-// $(document).ready(function (){
+//
 // $('.slider-number-one').slick({
 //     dots: true,
-//     infinite: false,
+//     infinite: true,
 //     speed: 300,
-//     slidesToShow: 2,
+//     slidesToShow: 3,
 //     slidesToScroll: 1,
-//     autoplaySpeed: 100,
-//     swipe: true,
 //     responsive: [
 //         {
 //             breakpoint: 1024,
 //             settings: {
-//                 slidesToShow: 3,
-//                 slidesToScroll: 1,
+//                 slidesToShow: 2,
+//                 slidesToScroll: 3,
 //                 infinite: true,
 //                 dots: true,
-//                 swipe:true,
-//
 //             }
 //         },
 //         {
 //             breakpoint: 600,
 //             settings: {
-//                 slidesToShow: 2,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 dots: true,
-//                 swipe:true,
+//                 slidesToShow: 1,
+//                 slidesToScroll: 2
 //             }
 //         },
 //         {
 //             breakpoint: 480,
 //             settings: {
 //                 slidesToShow: 1,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 dots: true,
-//                 swipe:true,
+//                 slidesToScroll: 1
 //             }
 //         }
 //     ]
-// });
 // });
