@@ -528,16 +528,19 @@ input {
   margin: 0 60px 120px 10px;
 }
 .slider1-slidez p {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 400;
   border-bottom: 2px solid #3498db;
   padding: 0 0 24px 0;
   margin: 0 0 30px 0;
+  min-width: 339px;
+  color: #666666;
 }
 .slider1-slidez ul {
   max-width: 325px;
   font-size: 16px;
   line-height: 16px;
+  color: #8f8f8f;
 }
 
 .slider1-images {
@@ -569,6 +572,7 @@ input {
 .slick-track {
   display: flex;
   overflow: hidden;
+  position: relative;
 }
 
 /* Слайд */
@@ -576,8 +580,19 @@ input {
 /* Слайд основной */
 /* Слайд по центру */
 /* Клонированный слайд */
-/* Стрелка */
 /* Точки (булиты) */
+.slick-dots {
+  position: absolute;
+  bottom: -21%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider .slick-dots {
+  justify-content: center;
+  align-items: center;
+}
+
 /* Активная точка */
 /* Элемент точки */
 /*# sourceMappingURL=style.css.map */

@@ -8,9 +8,28 @@ $(document).ready(function () {
         // easing:'ease',
         // speed:300,
         slidesToShow: 3,
-        // slidesToScroll:2,
-        // slidesToScroll:2,
+        // slidesToScroll:0,
+            responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true,
+            }
+        },
+                {
+                    breakpoint: 851,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: false,
+                        dots: true,
+                    }
+                }
 
+    ]
     })
 
 });
