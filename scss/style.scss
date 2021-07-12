@@ -370,6 +370,19 @@ input {
   .register_form{
   form {
     .check-mark-4-form {
+      margin: 6px 1px 7px 0;
+    }
+  }
+  }
+}
+@media (min-width: 381px) {
+  .un-wrapper{
+    display: flex;
+    align-items: end;
+  }
+  .register_form{
+  form {
+    .check-mark-4-form {
       margin: 1px 7px 0 0;
     }
   }
