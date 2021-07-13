@@ -3,11 +3,11 @@ $(document).ready(function () {
         arrows: false,
         dots: false,
         infinite: false,
-        autoplay:true,
-        autoplaySpeed: 300,
+        // autoplaySpeed: 300,
         // easing:'ease',
         // speed:300,
         slidesToShow: 3,
+        draggable:false,
         // slidesToScroll:0,
             responsive: [
         {
@@ -17,6 +17,8 @@ $(document).ready(function () {
                 slidesToScroll: 1,
                 infinite: false,
                 dots: true,
+                draggable:true,
+
             }
         },
                 {
@@ -26,6 +28,8 @@ $(document).ready(function () {
                         slidesToScroll: 1,
                         infinite: false,
                         dots: true,
+                        draggable:true,
+
                     }
                 }
 

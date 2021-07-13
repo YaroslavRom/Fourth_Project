@@ -110,13 +110,6 @@
   margin: 5px 5px 5px 5px;
   border-radius: 20px;
 }
- @media (max-width:850px) {
-  .shadowed-form{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
 @media (max-width: 974px) {
   .header_link {
     font-size: 15px;
@@ -155,7 +148,7 @@
     font-family: OpenSans ;
     font-weight: 300;
     text-align: center;
-    p{
+    ul{
       font-family: OpenSans ;
       font-weight: 700;
       font-size: 33px;
@@ -188,7 +181,7 @@
     font-size: 13px;
     margin: 0 0 0 34px;
     max-width: 576px;
-    p{
+    ul{
       margin:58px 0 22px 0;
       font-size: 20px;
       font-weight: 700;
@@ -232,7 +225,7 @@
     }
       .register_link{
       border-radius: 43px;
-      margin: 28px auto auto;
+      margin: 17px auto 16px auto;
       max-width: 178px;
       text-align: center;
       background-color: #337ab7;
@@ -376,7 +369,7 @@
       font-size: 21px;
     }
     .register_link{
-      margin: 21px auto auto;
+      margin: 17px auto 16px auto;
       padding: 15px 30px;
     }
   form {
@@ -433,11 +426,12 @@
   align-items: center;
   min-width: 0;
   max-width: 1220px;
-  p{
+  ul{
     font-family: "OpenSans";
     font-weight: 400;
     font-size: 32px;
-    margin: 75px 0 50px 0;
+    margin: 56px 0 21px 0;
+    color: #333333;
   }
 }
   .slider-number-one{
@@ -448,12 +442,11 @@
   .slider1-slidez{
   font-family: "OpenSans";
   font-weight: 400;
-  max-height: 290px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  p{
+  ul{
     font-size: 23px;
     font-weight: 400;
     border-bottom: 2px solid #3498db;
@@ -462,7 +455,7 @@
     min-width: 339px;
     color: #666666;
       }
-  ul{
+  p{
     max-width: 325px;
     font-size: 16px;
     line-height: 16px;
@@ -508,18 +501,16 @@
   }
 /* Слайд */
   .slick-slide{
+overflow: hidden;
   }
 /* Слайд активный (показывается) */
   .slick-slide.slick-active{
-
   }
 /* Слайд основной */
   .slick-slide.slick-current{
-
   }
 /* Слайд по центру */
   .slick-slide.slick-center{
-
 
   }
 /* Клонированный слайд */
@@ -534,9 +525,66 @@
 .slider .slick-dots{
   justify-content: center;
   align-items: center;
+  text-decoration: transparent;
+
+
+
 }
-  .slick-dots li{}
+  .slick-dots li{
+    list-style: none;
+  }
 /* Активная точка */
-  .slick-dots li.slick-active{}
 /* Элемент точки */
-  .slick-dots li button{}
+.slick-dots li button {
+  border-radius: 25px;
+  border: none;
+  color: transparent;
+  margin: 0 2px 0 2px;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #b3b3b3;
+
+}
+.slick-dots li.slick-active{
+  background-color: #666666;
+  border-radius: 25px;
+  margin: 1px 2px 0 2px;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+
+}
+.slick-active{
+  button{
+    visibility: hidden;
+   }
+}
+@media (max-width:850px) {
+  .shadowed-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .slick-dots{
+    position: absolute;
+    bottom: -532px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 536px) {
+  .slick-dots{
+    position: absolute;
+    bottom: -72%;
+    display: flex;
+    flex-direction: row;
+  }
+  .first-slider-paragraph{
+    font-size: 15px;
+  }
+}
+
+.first-slider-field{
+  color: #337ab7;
+}
