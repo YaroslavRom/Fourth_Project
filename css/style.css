@@ -531,7 +531,7 @@ input {
 .slider1-slidez p {
   max-width: 325px;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 21px;
   color: #8f8f8f;
 }
 
@@ -689,5 +689,50 @@ input {
   font-weight: 300;
   font-size: 17px;
   margin: 0 0 85px 0;
+}
+
+.second-slider {
+  display: flex;
+  justify-content: center;
+}
+
+.second-slider-box {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "OpenSans";
+}
+.second-slider-box h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.second-slider-box h1, .second-slider-box .second-slider-name {
+  color: #333333;
+}
+.second-slider-box p, .second-slider-box .second-slider-who {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+.slider2-quote-marks-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-slider-before {
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.second-slider-after {
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  align-content: flex-end;
+  margin: 35px 0 0 0;
 }
 /*# sourceMappingURL=style.css.map */

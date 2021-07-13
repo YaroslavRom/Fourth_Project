@@ -458,7 +458,7 @@ input {
   p{
     max-width: 325px;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 21px;
     color: #8f8f8f;
   }
   margin: 0 60px 120px 10px;
@@ -603,17 +603,44 @@ input {
   font-size: 17px;
   margin: 0 0 85px 0;
 }
-.all-stat-boxes{
+.second-slider{
+display: flex;
+justify-content: center;
 }
-.stat-images{
-
+.second-slider-box{
+  width:  980px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'OpenSans';
+  h5{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  h1, .second-slider-name{
+    color: #333333;
+  }
+  p, .second-slider-who{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+  }
 }
-.stat-hours{
 
+.slider2-quote-marks-box{
+  display: flex;
+  flex-direction: row;
 }
-.stat-students{
-
+.second-slider-before{
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  align-content: flex-start;
 }
-.stat-working-students{
-
+.second-slider-after{
+  max-width: 20px;
+  max-height: 20px;
+  display: flex;
+  align-content: flex-end;
+  margin:35px 0 0 0;
 }
