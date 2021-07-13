@@ -571,16 +571,49 @@ input {
 .stats-field{
   width: 100%;
   background-color: #3498db;
-  max-height: 310px;
+  min-height: 310px;
   display: flex;
   justify-content: center;
 }
 .stats-box{
-  max-width: 1220px ;
+  width: 63%;
   display: flex;
   flex-direction: row;
+  font-family: 'OpenSans';
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  ul{
+    text-align: center;
+  }
 }
 .stat-images{
   min-width: 63px;
   min-height: 60px;
+  margin: 86px auto 18px auto;
+  display: flex;
+}
+.stat-numbers{
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0 0 18px 0;
+}
+.stat-txt{
+  font-weight: 300;
+  font-size: 17px;
+  margin: 0 0 85px 0;
+}
+.all-stat-boxes{
+}
+.stat-images{
+
+}
+.stat-hours{
+
+}
+.stat-students{
+
+}
+.stat-working-students{
+
 }

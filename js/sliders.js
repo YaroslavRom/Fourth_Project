@@ -7,7 +7,8 @@ $(document).ready(function () {
         // easing:'ease',
         // speed:300,
         slidesToShow: 3,
-        draggable:false,
+        draggable:true,
+        slidesToScroll:1,
         // slidesToScroll:0,
             responsive: [
         {
