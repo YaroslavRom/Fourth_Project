@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .remove-all-styles {
   all: revert;
 }
@@ -552,28 +551,17 @@ input {
   max-width: 100%;
 }
 
-/* Слайдер */
-/* Слайдер запущен */
-/* Слайдер с точками */
-/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
   margin: 0 0 0 41px;
 }
 
-/* Лента слайдов */
 .slick-track {
   display: flex;
   overflow: hidden;
   position: relative;
 }
 
-/* Слайд */
-/* Слайд активный (показывается) */
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Точки (булиты) */
 .slick-dots {
   position: absolute;
   bottom: -21%;
@@ -591,8 +579,6 @@ input {
   list-style: none;
 }
 
-/* Активная точка */
-/* Элемент точки */
 .slick-dots li button {
   border-radius: 25px;
   border: none;
@@ -659,6 +645,10 @@ input {
 
   #first-slider-title {
     font-size: 23px;
+  }
+
+  .cources_text ul {
+    font-size: 26px;
   }
 }
 /*# sourceMappingURL=style.css.map */
