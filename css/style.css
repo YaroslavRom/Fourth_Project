@@ -785,9 +785,12 @@ input {
 }
 
 .second-slider-title {
+  font-family: "OpenSans";
   margin: 67px 0 0 0;
   font-size: 27px;
   font-weight: 400;
+  display: block;
+  text-align: center;
 }
 
 .second-slider-who {
