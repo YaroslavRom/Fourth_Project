@@ -80,6 +80,13 @@ html, body {
   /* IE9 Compat Modes */
   src: url("../fonts/OpenSans-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "OpenSans";
+  font-style: italic;
+  src: url("../fonts/OpenSans-Italic.ttf") format("opentype");
+  /* IE9 Compat Modes */
+  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
+}
 .container {
   margin: 0 auto;
   max-width: 1220px;
@@ -697,7 +704,7 @@ input {
 }
 
 .second-slider-box {
-  width: 980px;
+  width: 920px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -707,10 +714,10 @@ input {
   font-size: 16px;
   font-weight: 600;
 }
-.second-slider-box h1, .second-slider-box .second-slider-name {
+.second-slider-box span, .second-slider-box .second-slider-name {
   color: #333333;
 }
-.second-slider-box p, .second-slider-box .second-slider-who {
+.second-slider-box p {
   font-weight: 400;
   font-size: 16px;
   color: #666666;
@@ -719,6 +726,7 @@ input {
 .slider2-quote-marks-box {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .second-slider-before {
@@ -726,6 +734,7 @@ input {
   max-height: 20px;
   display: flex;
   align-content: flex-start;
+  margin: 10px 0 0 0;
 }
 
 .second-slider-after {
@@ -733,6 +742,35 @@ input {
   max-height: 20px;
   display: flex;
   align-content: flex-end;
-  margin: 35px 0 0 0;
+  margin: 68px 0 0 0;
+}
+
+.second-slider-txt {
+  padding: 30px 0 0 0;
+  max-width: 701px;
+}
+
+.second-slider-by {
+  margin: 40px 0 0 0;
+}
+
+.second-slider-title {
+  margin: 67px 0 0 0;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.second-slider-name {
+  font-size: 19px;
+  margin: 0 0 14px 0;
+}
+
+.second-slider-who {
+  font-family: "OpenSans";
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.4;
+  font-weight: 400;
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
