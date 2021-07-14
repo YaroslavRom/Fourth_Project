@@ -719,7 +719,7 @@ input {
   top: 440px;
   background-color: #666666;
   border-radius: 25px;
-  margin: 0px 2px 1px 2px;
+  margin: 0 2px 1px 2px;
   padding: 0;
   width: 12px;
   height: 12px;
@@ -791,6 +791,7 @@ input {
   font-weight: 400;
   display: block;
   text-align: center;
+  color: #333333;
 }
 
 .second-slider-who {
@@ -799,7 +800,7 @@ input {
   font-style: italic;
   opacity: 0.4;
   font-weight: 400;
-  color: #666666;
+  color: #989898;
   margin: 0 31px 0 0;
 }
 
@@ -824,10 +825,12 @@ input {
   font-size: 31px;
   display: block;
   margin: 76px 0 30px 0;
+  color: #333333;
 }
 .video-txt p {
   display: block;
   margin: 0 0 30px 0;
+  color: #818181;
 }
 
 iframe {
@@ -845,6 +848,7 @@ iframe {
   font-weight: 400;
   font-size: 36px;
   margin: 75px 35px 50px 0;
+  color: #393939;
 }
 
 .mentors-box {
@@ -863,6 +867,7 @@ iframe {
 .mentors-smaller-box p {
   width: 670px;
   line-height: 20px;
+  color: #bababa;
 }
 .mentors-smaller-box li {
   color: #3498db;
@@ -879,5 +884,19 @@ iframe {
 .mentors-picture {
   margin: 0 110px 50px 0;
   display: block;
+}
+
+.just-a-map-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
+.just-a-map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
