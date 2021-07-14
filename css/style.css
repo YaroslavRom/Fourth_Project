@@ -52,6 +52,27 @@ html, body {
   height: 100%;
 }
 
+body .slider .slick-dots {
+  justify-content: center;
+  align-items: center;
+  text-decoration: transparent;
+}
+body .slick-dots li {
+  list-style: none;
+}
+body .slick-active button {
+  visibility: hidden;
+}
+body .slick-list {
+  overflow: hidden;
+  margin: 0 0 0 41px;
+}
+body .slick-track {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
 @font-face {
   font-family: "OpenSans";
   font-weight: 700;
@@ -557,36 +578,13 @@ input {
   min-width: 0;
   max-width: 100%;
 }
-
-.slick-list {
-  overflow: hidden;
-  margin: 0 0 0 41px;
-}
-
-.slick-track {
-  display: flex;
-  overflow: hidden;
-  position: relative;
-}
-
-.slick-dots {
+.slider-number-one .slick-dots {
   position: absolute;
   bottom: -21%;
   display: flex;
   flex-direction: row;
 }
-
-.slider .slick-dots {
-  justify-content: center;
-  align-items: center;
-  text-decoration: transparent;
-}
-
-.slick-dots li {
-  list-style: none;
-}
-
-.slick-dots li button {
+.slider-number-one .slick-dots li button {
   border-radius: 25px;
   border: none;
   color: transparent;
@@ -596,18 +594,13 @@ input {
   height: 12px;
   background-color: #b3b3b3;
 }
-
-.slick-dots li.slick-active {
+.slider-number-one .slick-dots li.slick-active {
   background-color: #666666;
   border-radius: 25px;
   margin: 16px 2px 0 2px;
   padding: 0;
   width: 12px;
   height: 12px;
-}
-
-.slick-active button {
-  visibility: hidden;
 }
 
 @media (max-width: 850px) {
@@ -701,6 +694,35 @@ input {
 .second-slider {
   display: flex;
   justify-content: center;
+  height: 530px;
+}
+.second-slider .slick-dots {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.second-slider .slick-dots li button {
+  position: relative;
+  top: 440px;
+  border-radius: 25px;
+  border: none;
+  color: transparent;
+  margin: 3px 2px 0 2px;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #b3b3b3;
+}
+.second-slider .slick-dots li.slick-active {
+  position: relative;
+  top: 440px;
+  background-color: #666666;
+  border-radius: 25px;
+  margin: 0px 2px 1px 2px;
+  padding: 0;
+  width: 12px;
+  height: 12px;
 }
 
 .second-slider-box {
@@ -722,6 +744,14 @@ input {
   font-size: 16px;
   color: #666666;
 }
+.second-slider-box .second-slider-name {
+  font-size: 15px;
+  margin: 0 36px 16px 0;
+}
+
+.quote-mark {
+  max-width: 25px;
+}
 
 .slider2-quote-marks-box {
   display: flex;
@@ -742,7 +772,7 @@ input {
   max-height: 20px;
   display: flex;
   align-content: flex-end;
-  margin: 68px 0 0 0;
+  margin: 84px 0 0 0;
 }
 
 .second-slider-txt {
@@ -756,13 +786,8 @@ input {
 
 .second-slider-title {
   margin: 67px 0 0 0;
-  font-size: 31px;
+  font-size: 27px;
   font-weight: 400;
-}
-
-.second-slider-name {
-  font-size: 19px;
-  margin: 0 0 14px 0;
 }
 
 .second-slider-who {
@@ -772,5 +797,31 @@ input {
   opacity: 0.4;
   font-weight: 400;
   color: #666666;
+  margin: 0 31px 0 0;
+}
+
+.video-background {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.video-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-txt {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+.video-txt span {
+  font-size: 31px;
+}
+
+iframe {
+  width: 1020px;
+  height: 520px;
 }
 /*# sourceMappingURL=style.css.map */

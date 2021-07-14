@@ -39,47 +39,22 @@ $(document).ready(function () {
 
 });
 
-// $(document).ready(function () {
-//     $('.second-slider').slick({
-//         arrows: false,
-//         dots: false,
-//         infinite: false,
-//         // autoplaySpeed: 300,
-//         // easing:'ease',
-//         // speed:300,
-//         slidesToShow: 3,
-//         draggable:true,
-//         slidesToScroll:1,
-//         // slidesToScroll:0,
-//         responsive: [
-//             {
-//                 breakpoint: 1200,
-//                 settings: {
-//                     slidesToShow: 2,
-//                     slidesToScroll: 1,
-//                     infinite: false,
-//                     dots: true,
-//                     draggable:true,
-//
-//                 }
-//             },
-//             {
-//                 breakpoint: 851,
-//                 settings: {
-//                     slidesToShow: 1,
-//                     slidesToScroll: 1,
-//                     infinite: false,
-//                     dots: true,
-//                     draggable:true,
-//
-//                 }
-//             }
-//
-//         ]
-//     })
-//
-// });
-//
+$(document).ready(function () {
+    $('.second-slider').slick({
+        arrows: false,
+        dots: true,
+        infinite: false,
+        // autoplaySpeed: 300,
+        // easing:'ease',
+        // speed:300,
+        slidesToShow: 1,
+        draggable:true,
+        slidesToScroll:1,
+        // slidesToScroll:0,
+    })
+
+});
+
 
 
 
