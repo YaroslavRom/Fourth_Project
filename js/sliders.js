@@ -55,6 +55,23 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    $('.mentors-background').slick({
+        arrows: false,
+        dots: true,
+        infinite: false,
+        // autoplaySpeed: 300,
+        // easing:'ease',
+        // speed:300,
+        slidesToShow: 1,
+        draggable:true,
+        slidesToScroll:1,
+        // slidesToScroll:0,
+    })
+
+});
+
+
 
 
 

@@ -138,21 +138,6 @@ body{
   margin: 5px 5px 5px 5px;
   border-radius: 20px;
 }
-@media (max-width: 974px) {
-  .header_link {
-    font-size: 15px;
-  }
-}
-@media (max-width: 936px) {
-  .header_link {
-    font-size: 14px;
-  }
-}
-@media (max-width: 900px) {
-  .header_link {
-    font-size: 13px;
-  }
-}
 .content {
   padding: 100px 0 0 0;
 }
@@ -272,6 +257,22 @@ input {
 .register_link {
   padding: 21px 95px;
 }
+@media (max-width: 974px) {
+  .header_link {
+    font-size: 15px;
+  }
+}
+@media (max-width: 936px) {
+  .header_link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px) {
+  .header_link {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 1285px) {
   .form-optimization{
     min-width: 430px;
@@ -582,7 +583,7 @@ input {
   min-height: 310px;
   display: flex;
   justify-content: center;
-  }
+}
 .stats-box{
   width: 63%;
   display: flex;
@@ -612,8 +613,8 @@ input {
   margin: 0 0 85px 0;
 }
 .second-slider{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
   height: 530px;
 
   .slick-dots{
@@ -708,7 +709,7 @@ justify-content: center;
   font-style: italic;
   opacity: 0.4;
   font-weight: 400;
-    color: #666666;
+  color: #666666;
   margin: 0 31px 0 0;
 }
 .video-background{
@@ -721,14 +722,64 @@ justify-content: center;
   align-items: center;
 }
 .video-txt{
- text-align: center;
- font-weight: 400;
+  text-align: center;
+  font-weight: 400;
   font-size: 16px;
+  font-family: "OpenSans";
   span{
     font-size: 31px;
+    display: block;
+    margin: 76px 0 30px 0;
+  }
+  p{
+    display: block;
+    margin: 0 0 30px 0;
   }
 }
 iframe{
   width: 1020px;
   height: 520px;
+  margin: 0 0 65px 0;
+}
+.mentors-background{
+  width: 100%;
+  font-family: "OpenSans";
+}
+.who-they-are{
+  font-weight: 400;
+  font-size: 36px;
+  margin: 75px 35px 50px 0;
+}
+.mentors-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mentors-profile-txt{
+
+}
+.mentors-smaller-box{
+  display: flex;
+  width: 1120px;
+  flex-direction: row;
+  margin: 0 0 100px 0;
+  p{
+    width: 670px;
+    line-height: 20px;
+  }
+  float: left;
+  li{
+    color: #3498db;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 21px 0;
+  }
+}
+.mentors-description{
+  padding: 35px 0 0 0;
+  border-top:1px solid #f7f7f7;
+}
+.mentors-picture{
+  margin: 0 110px 50px 0;
+  display: block;
 }
