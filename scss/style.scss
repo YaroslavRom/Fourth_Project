@@ -802,6 +802,54 @@ iframe{
   height:100%;
   width:100%;
   position:absolute;
+}
+}
+.additional-map-n-contact-info{
+  background-color: #3498db;
+  width: 100%;
+  height: 195px;
+}
+.info-box{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1060px;
+  margin: 0 auto;
+  ul,span{
+    font-family: "OpenSans";
+    color: #f7f7f7;
+  }
+  li{
+    font-size: 16px;
+  font-weight: 300;
+  }
+}
+.map-names{
+  font-weight: 600;
+  font-size: 19px;
+}
+.map-images{
+    width: 86px;
+    height: 75px;
+    margin: 0 auto;
 
 }
+.two-item-box{
+  min-width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second-two-item-box{
+  min-width:40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 0 0;
+  flex-direction: column;
+  text-align: center;
 }
