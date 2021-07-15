@@ -24,6 +24,7 @@ body{
     display: flex;
     overflow: hidden;
     position: relative;
+    justify-content: center;
   }
 }
 @font-face {
@@ -297,7 +298,7 @@ input {
     margin: 147px 9px auto 0;
     min-width: 250px; line-height: 36px;  }
 }
-@media (max-width: 862px) {
+@media (max-width: 862px)   {
   .headers_body {
     height: 50px;
   }
@@ -463,11 +464,6 @@ input {
     color: #333333;
   }
 }
-.slider-number-one{
-  display: flex;
-  flex-direction: row;
-  min-width: 0;
-}
 .slider1-slidez{
   font-family: "OpenSans";
   font-weight: 400;
@@ -501,6 +497,7 @@ input {
 }
 .slider-number-one{
   overflow: hidden;
+  flex-direction: row;
   display: flex;
   justify-content: center;
   min-width: 0;
@@ -508,25 +505,28 @@ input {
 
   .slick-dots{
     position: absolute;
-    bottom: -21%;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
-
   .slick-dots li button {
+    position: relative;
+    top:440px;
     border-radius: 25px;
     border: none;
     color: transparent;
-    margin: 0 2px 0 2px;
+    margin: 3px 2px 0 2px;
     padding: 0;
     width: 12px;
     height: 12px;
     background-color: #b3b3b3;
   }
   .slick-dots li.slick-active{
+    position: relative;
+    top:440px;
     background-color: #666666;
     border-radius: 25px;
-    margin: 16px 2px 0 2px;
+    margin: 0 2px 1px 2px;
     padding: 0;
     width: 12px;
     height: 12px;
@@ -750,6 +750,35 @@ iframe{
 .mentors-background{
   width: 100%;
   font-family: "OpenSans";
+
+  .slick-dots{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 45.1%;
+  }
+  .slick-dots li button {
+    position: relative;
+    top:-88px;
+    border-radius: 25px;
+    border: none;
+    color: transparent;
+    margin: 3px 9px 0 2px;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #b3b3b3;
+  }
+  .slick-dots li.slick-active{
+    position: relative;
+    top:-88px;
+    background-color: #666666;
+    border-radius: 25px;
+    margin: 3px 9px 1px 2px;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+  }
 }
 .who-they-are{
   font-weight: 400;
@@ -758,6 +787,7 @@ iframe{
   color: #393939;
 }
 .mentors-box{
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
