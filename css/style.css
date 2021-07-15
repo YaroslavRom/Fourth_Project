@@ -1006,6 +1006,9 @@ iframe {
   width: 12px;
   height: 12px;
 }
+.mentors-background .slick-slide .slick-active {
+  padding: 0 20% 0 0;
+}
 
 .who-they-are {
   font-weight: 400;
