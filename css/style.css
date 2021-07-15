@@ -1029,7 +1029,6 @@ iframe {
   float: left;
 }
 .mentors-smaller-box p {
-  width: 670px;
   line-height: 20px;
   color: #bababa;
 }
@@ -1174,6 +1173,35 @@ footer a {
 
   .stat-box-container2 {
     margin: 0 auto;
+  }
+
+  .mentors-smaller-box {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    background-color: black;
+  }
+  .mentors-smaller-box .mentors-picture {
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .mentors-profile-txt {
+    text-align: center;
+  }
+  .mentors-profile-txt .mentors-description p {
+    display: flex;
+    margin: 0 20px 0 0;
+  }
+
+  .slider-number-one .slick-dots li button {
+    top: 286px;
+  }
+
+  .slider-number-one .slick-dots li.slick-active {
+    top: 292px;
   }
 }
 @media (max-width: 400px) {
