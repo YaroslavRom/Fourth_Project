@@ -484,6 +484,27 @@ input {
   .second-slider-box .second-slider-after {
     margin: 130px 0 0 0;
   }
+
+  .two-item-box {
+    margin: 0 auto;
+  }
+
+  .second-two-item-box {
+    margin: 0 auto;
+  }
+
+  .info-box .phone-number {
+    padding: 0 23px 0 0;
+  }
+  .info-box .icons {
+    margin: 20px 10px 0 10px;
+  }
+  .info-box span {
+    font-size: 12px;
+  }
+  .info-box .map-info-description {
+    font-size: 11px;
+  }
 }
 @media (max-width: 432px) {
   .second-slider-box .second-slider-after {

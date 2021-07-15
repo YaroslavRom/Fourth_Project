@@ -419,6 +419,26 @@ input {
     margin: 130px 0 0 0 ;
   }
 }
+  .two-item-box{
+    margin: 0 auto;
+  }
+  .second-two-item-box{
+    margin: 0 auto;
+  }
+  .info-box{
+    .phone-number{
+      padding: 0 23px 0 0;
+    }
+    .icons {
+      margin: 20px 10px 0 10px
+    }
+    span{
+      font-size: 12px;
+    }
+    .map-info-description{
+      font-size: 11px;
+    }
+  }
 }
 @media (max-width: 432px) {
   .second-slider-box{
