@@ -463,6 +463,22 @@ input {
   .second-slider-box li {
     font-size: 11px;
   }
+
+  .mentors-box .who-they-are {
+    font-size: 33px;
+  }
+
+  .map-images {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .info-box span {
+    font-size: 13px;
+  }
+  .info-box .map-info-description {
+    font-size: 12px;
+  }
 }
 @media (max-width: 638px) {
   .second-slider-box .second-slider-after {
@@ -873,6 +889,7 @@ iframe {
 
 .mentors-background {
   width: 100%;
+  overflow: hidden;
   font-family: "OpenSans";
 }
 .mentors-background .slick-dots {
@@ -975,8 +992,9 @@ iframe {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .info-box ul, .info-box span {
   font-family: "OpenSans";
@@ -1004,14 +1022,14 @@ iframe {
 }
 
 .two-item-box {
-  min-width: 40%;
+  min-width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .second-two-item-box {
-  min-width: 40%;
+  min-width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1020,7 +1038,7 @@ iframe {
 .icons {
   display: flex;
   justify-content: space-evenly;
-  margin: 40px 0 0 0;
+  margin: 40px 20px 0 20px;
   flex-direction: column;
   text-align: center;
 }
