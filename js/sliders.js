@@ -3,13 +3,9 @@ $(document).ready(function () {
         arrows: false,
         dots: false,
         infinite: false,
-        // autoplaySpeed: 300,
-        // easing:'ease',
-        // speed:300,
         slidesToShow: 3,
         draggable:true,
         slidesToScroll:1,
-        // slidesToScroll:0,
             responsive: [
         {
             breakpoint: 1200,
@@ -44,13 +40,15 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         infinite: false,
-        // autoplaySpeed: 300,
-        // easing:'ease',
-        // speed:300,
+        autoplay:true,
+        autoplaySpeed: 10000,
+        speed:2000,
+        fade: true,
+        waitForAnimate: false,
         slidesToShow: 1,
         draggable:true,
         slidesToScroll:1,
-        // slidesToScroll:0,
+        easing:'ease',
     })
 
 });
@@ -60,13 +58,11 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         infinite: false,
-        // autoplaySpeed: 300,
-        // easing:'ease',
-        // speed:300,
         slidesToShow: 1,
         draggable:true,
         slidesToScroll:1,
-        // slidesToScroll:0,
+        autoplay:true,
+        autoplaySpeed: 10000,
     })
 
 });
@@ -74,39 +70,3 @@ $(document).ready(function () {
 
 
 
-
-
-//reference :)
-//
-// $('.slider-number-one').slick({
-//     dots: true,
-//     infinite: true,
-//     speed: 300,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     responsive: [
-//         {
-//             breakpoint: 1024,
-//             settings: {
-//                 slidesToShow: 2,
-//                 slidesToScroll: 3,
-//                 infinite: true,
-//                 dots: true,
-//             }
-//         },
-//         {
-//             breakpoint: 600,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 2
-//             }
-//         },
-//         {
-//             breakpoint: 480,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1
-//             }
-//         }
-//     ]
-// });
