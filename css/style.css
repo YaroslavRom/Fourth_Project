@@ -480,6 +480,15 @@ input {
     font-size: 12px;
   }
 }
+@media (max-width: 826px) {
+  .stats-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stats-box .all-stat-boxes {
+    margin: 0 82px;
+  }
+}
 @media (max-width: 638px) {
   .second-slider-box .second-slider-after {
     margin: 130px 0 0 0;
@@ -504,6 +513,14 @@ input {
   }
   .info-box .map-info-description {
     font-size: 11px;
+  }
+
+  .stats-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stats-box .all-stat-boxes {
+    margin: 0 auto;
   }
 }
 @media (max-width: 533px) {
@@ -576,6 +593,35 @@ input {
     margin: 228px 0 0 0;
   }
 }
+.all-stat-boxes {
+  margin: 0 auto;
+  padding: 0;
+}
+.all-stat-boxes ul {
+  height: 20px;
+}
+
+.stats-box {
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.stat-numbers {
+  font-size: 13px;
+}
+
+.stat-txt {
+  font-size: 11px;
+}
+
+.stat-images {
+  width: 60px;
+  height: 50px;
+  margin: 16px auto 10px auto;
+}
+
 @media (min-width: 381px) {
   .un-wrapper {
     display: flex;
@@ -733,13 +779,11 @@ input {
 }
 
 .stats-box {
-  width: 63%;
   display: flex;
   flex-direction: row;
   font-family: "OpenSans";
   color: #ffffff;
-  align-items: center;
-  justify-content: space-between;
+  width: 1220px;
 }
 .stats-box ul {
   text-align: center;
@@ -760,8 +804,24 @@ input {
 
 .stat-txt {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 13px;
   margin: 0 0 85px 0;
+}
+
+.stat-box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.stat-box-container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-stat-boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 0 75px;
 }
 
 .second-slider {
@@ -1103,7 +1163,36 @@ footer a {
   margin: 54px 0 0 0;
 }
 
-.all-stat-boxes {
-  width: 25%;
+@media (max-width: 1214px) {
+  .stat-images {
+    margin: 13px auto 18px auto;
+  }
+
+  .stat-box-container {
+    margin: 0 auto;
+  }
+
+  .stat-box-container2 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  #stat-cources-id {
+    margin: 0 23px 0 0;
+  }
+
+  #stat-students-id {
+    margin: 0 14px 0 27px;
+  }
+
+  .all-stat-boxes {
+    padding: 5px;
+  }
+  .all-stat-boxes .stat-txt {
+    flex-wrap: wrap;
+  }
+  .all-stat-boxes .stat-images {
+    margin: 0 auto 18px auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
