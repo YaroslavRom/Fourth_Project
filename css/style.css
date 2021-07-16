@@ -740,6 +740,14 @@ input {
   }
 }
 @media (max-width: 556px) {
+  .mentors-background .slick-dots li button {
+    left: 16px;
+  }
+
+  .mentors-background .slick-dots li.slick-active {
+    left: 16px;
+  }
+
   .slider1-slidez ul {
     display: flex;
     flex-wrap: wrap;
@@ -760,6 +768,15 @@ input {
 
   .cources_text ul {
     font-size: 26px;
+  }
+}
+@media (max-width: 352px) {
+  .slider-number-one .slick-dots li.slick-active {
+    margin: 68px 2px 1px 2px;
+  }
+
+  .slider-number-one .slick-dots li button {
+    margin: 84px 2px 1px 2px;
   }
 }
 .stats-field {
