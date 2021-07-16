@@ -870,7 +870,7 @@ input {
 
   .slick-dots li button {
     position: relative;
-    top: 440px;
+    top: 300px;
     border-radius: 25px;
     border: none;
     color: transparent;
@@ -883,7 +883,7 @@ input {
 
   .slick-dots li.slick-active {
     position: relative;
-    top: 440px;
+    top: 300px;
     background-color: #666666;
     border-radius: 25px;
     margin: 0 2px 1px 2px;
@@ -1278,6 +1278,33 @@ footer {
     }
   }
 }
+@media (max-width: 639px ) {
+  .second-slider {
+    .slick-dots li button {
+      top: 450px;
+
+    }
+
+    .slick-dots li.slick-active {
+      top: 450px;
+    }
+  }
+  .cources_text ul{
+    font-size: 24px;
+  }
+  .mentors-box .who-they-are{
+    padding: 40px 0 10px 0;
+  }
+  .footer-box{
+    font-size: 14px;
+  }
+  .stat-box-container{
+    padding: 25px 0 0 0;
+  }
+  .stat-box-container2{
+    padding:0 0 25px 0;
+  }
+}
 @media (max-width: 600px) {
   .mentors-background {
     margin: 0 0 0 -18px;
@@ -1321,5 +1348,11 @@ footer {
     .stat-images {
       margin: 0 auto 18px auto;
     }
+  }
+}
+@media (min-width: 1214px) {
+  .stat-images{
+    width: 93px;
+    height: 90px;
   }
 }
